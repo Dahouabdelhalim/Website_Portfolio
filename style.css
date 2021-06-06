@@ -1,7 +1,10 @@
 /*
     DEMO STYLE
 */
-
+@font-face {
+  font-family: 'bogart';
+  src: url('image_after/font/Bogart-Regular-trial.ttf')
+}
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
@@ -266,7 +269,14 @@ a.article:hover {
   line-height: 130%;
   letter-spacing: 2px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'bogart','Poppins', sans-serif;
+}
+.brief{
+
+  margin: 20px;
+  font-family: 'bogart','Montserrat', sans-serif;
+  text-align: center;
+
 }
 .text p {
   margin: 1em 0 0;
@@ -287,11 +297,7 @@ a.article:hover {
   border-radius: 10px;
 }
 
-.c-timecard h2 {
-  margin: 20px;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
+
 
 .c-gant{
   display: block;
