@@ -204,6 +204,10 @@ a.article:hover {
     .photo{
       margin-left: 10px 30%;
     }
+    .c-gant__tenure{
+      position: absolute !important;
+      bottom: 5px !important;
+    }
 }
 
 /* ---------------------------------------------------
