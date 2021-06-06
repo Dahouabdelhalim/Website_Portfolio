@@ -302,7 +302,7 @@ a.article:hover {
 .c-gant{
   display: block;
   position: relative;
-  padding: 20px;
+  padding: 40px;
   width: 80%;
   margin: 40px 10%;
   border-radius: 20px;
@@ -311,7 +311,7 @@ a.article:hover {
 .c-gant2{
   display: block;
   position: relative;
-  padding: 20px;
+  padding: 40px;
   margin: 40px 10%;
   width: 80%;
   border-radius: 20px;
@@ -320,7 +320,7 @@ a.article:hover {
 .c-gant3{
   position: relative;
   display: block;
-  padding: 20px;
+  padding: 40px;
   margin: 40px 10%;
   width: 80%;
   border-radius: 20px;
@@ -329,7 +329,7 @@ a.article:hover {
 .c-gant4{
   position: relative;
   display: block;
-  padding: 20px;
+  padding: 40px;
   margin: 40px 10%;
   width: 80%;
   border-radius: 20px;
