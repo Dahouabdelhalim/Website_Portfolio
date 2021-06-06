@@ -204,10 +204,6 @@ a.article:hover {
     .photo{
       margin-left: 10px 30%;
     }
-    .c-gant__tenure{
-      position: absolute !important;
-      bottom: 5px !important;
-    }
 }
 
 /* ---------------------------------------------------
@@ -336,6 +332,8 @@ a.article:hover {
 .c-gant__tenure{
   position: absolute;
   right: 10px;
+  top: 5px;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .Footer{
