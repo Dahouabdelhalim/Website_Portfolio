@@ -56,7 +56,7 @@ a:focus {
 }
 
 #sidebar {
-    width: 350px;
+    width: 300px;
     position: fixed;
     top: 0;
     left: 0;
@@ -68,7 +68,7 @@ a:focus {
 }
 
 #sidebar.active {
-    margin-left: -350px;
+    margin-left: -300px;
 }
 
 #sidebar .sidebar-header {
@@ -150,7 +150,7 @@ a.article:hover {
 ----------------------------------------------------- */
 
 #content {
-    width: calc(100% - 350px);
+    width: calc(100% - 300px);
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;
@@ -169,7 +169,7 @@ a.article:hover {
 
 @media (max-width: 1500px) {
     #sidebar {
-        margin-left: -350px;
+        margin-left: -300px;
     }
     #sidebar.active {
         margin-left: 0;
@@ -178,7 +178,7 @@ a.article:hover {
         width: 100%;
     }
     #content.active {
-        width: calc(100% - 350px);
+        width: calc(100% - 300px);
     }
     #sidebarCollapse span {
         display: none;
@@ -238,7 +238,7 @@ a.article:hover {
   font-weight: 500;
 }
 .form-control{
-  width: 270px;
+  width: 220px;
   margin: 2% 11%;
   text-align: center;
 }
