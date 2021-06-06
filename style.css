@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
 /*
     DEMO STYLE
 */
@@ -5,7 +7,6 @@
   font-family: 'bogart';
   src: url('image_after/font/Bogart-Regular-trial.ttf')
 }
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -240,7 +241,7 @@ a.article:hover {
   font-size: 1rem;
   font-weight: 500;
 }
-.form-control{
+#sidebar .form-control{
   width: 220px;
   margin: 2% 11%;
   text-align: center;
@@ -387,4 +388,102 @@ a.article:hover {
   text-align: center;
   padding:  15px;
 
+}
+
+/* ---------------------------------------------------
+    Contact page design
+----------------------------------------------------- */
+.content_nav{
+  background: #ccb78f !important;
+}
+.container_top{
+  padding: 40px;
+  background: #ccb78f !important;
+}
+.container_top p,h1{
+  margin-left: 40%;
+  font-family: "Poppins",Arial,sans-serif;
+}
+.container_top h1{
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+.up_span{
+  margin-left: 10px;
+  color: #000;
+}
+.contact_info h2{
+  line-height: 1.5;
+  color: rgba(0,0,0,.8);
+  font-weight: 400;
+  font-family: "Poppins",Arial,sans-serif;
+  margin-top: 50px;
+  margin-bottom:  30px;
+  text-align:left;
+  margin-left: 50px;
+}
+.contact_info_blog h2 {
+  line-height: 1.5;
+  color: rgba(0,0,0,.8);
+  font-weight: 400;
+  font-family: "Poppins",Arial,sans-serif;
+  margin-top: 50px;
+  margin-bottom:  30px;
+  text-align:center;
+  margin-left: 50px;
+
+}
+
+#features{
+  padding: 5% 10%;
+  text-align: center;
+
+}
+.features-box{
+  text-align: center;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+#direct_contact{
+  width: 100%;
+  padding: 5% 10%;
+  text-align: center;
+
+}
+
+.features-box-contact{
+  min-width: 45%;
+  background: #f8f9fa !important;
+  min-height: 500px;
+  padding: 5% 5%;
+  margin-right: 5%;
+}
+
+.features-box-contact .form-control {
+  width: 100%;
+}
+
+.features-box-map{
+  text-align:center;
+  background: #f8f9fa !important;
+  min-width: 45%;
+  padding: 4% 4%;
+}
+
+.icon{
+  margin-bottom: 1rem;
+  color: #ccb78f;
+}
+
+.sub{
+  margin-top: 2%;
+  background: #ccb78f;
+  border: 1px solid #ccb78f;
+  color: #fff;
+  border-radius: 30px;
+  box-shadow: none !important;
 }
