@@ -338,7 +338,7 @@ a.article:hover {
 .c-gant__tenure{
   position: absolute;
   right: 10px;
-  top: 5px;
+  top: 1px;
   color: rgba(255, 255, 255, 0.8) !important;
 }
 
