@@ -208,6 +208,9 @@ a.article:hover {
     .photo{
       margin-left: 10px 30%;
     }
+    .container_top p,h1{
+      margin-left: 35%;
+    }
 }
 
 /* ---------------------------------------------------
