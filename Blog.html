@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Collapsible sidebar using Bootstrap 4</title>
+  <link rel="icon" href="icon/Portfolio_logo.gif" type="/gif">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Our Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+  <!-- Font Awesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+
+      <div class="sidebar-header">
+
+        <img class='psl_image' src="image_after/circle-cropped.png" alt="Personal Photo">
+
+        <h1 class="name"> Abdelhalim Dahou </h1>
+        <h2 class="name"> 25 Years Old </h2>
+
+      </div>
+
+      <ul class="nav flex-column">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" target="_blank">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html" target="_blank">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Blog.html" target="_blank">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html" target="_blank">Contact</a>
+        </li>
+        <li class="nav-item top_mar">
+
+          <a> Newsletter <i class="fab fa-telegram-plane icon"></i> </a>
+
+          <input type="text" class="form-control" placeholder="Enter Email address" />
+        </li>
+
+      </ul>
+
+
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+
+
+      <section class="Head_of_the_page">
+
+
+        <div class="container_top">
+          <nav class="navbar navbar-expand-lg content_nav">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+              <i class="fas fa-align-left"></i>
+              <span>Toggle Sidebar</span>
+            </button>
+
+          </nav>
+
+            <p> <span><a href="index2.html"> Home </a> </span> <span class="up_span">Blog</span></p>
+            <h1>Blog</h1>
+
+
+        </div>
+
+
+      </section>
+
+      <!-- head section End -->
+
+        <div class="container-fluid">
+
+          <div class="contact_info_blog ">
+
+                  <h2> November 2019</h2>
+          </div>
+
+          <div class="skill-row">
+            <img class="picture_website" src="image_after/first_blog.png" alt="">
+            <h6><i class="fas fa-comments co"></i>  Sean Kernan in Mind Cafe</h6>
+            <h3> 7 Little Things That Can Tell You A Lot About Someone</h3>
+            <p>Potent habits that can reveal a person’s character.</p>
+            <p>Without a doubt, one of the best life skills there are is the ability to gauge a person’s character and personality accurately. It’ll help you find stronger relationships and avoid a lot of pain and frustration.</p>
+            <p class="extrat">Feb 21  <i class="fal fa-star-half-alt star"></i> </p>
+          </div>
+
+
+          <div class="skill-row">
+            <img class="picture_website" src="image_after/second_blog.png" alt="">
+            <h6><i class="fas fa-brackets-curly co"></i>Anubhav Sinha</h6>
+            <h3> Resources to master Data Structures and Algorithms!</h3>
+            <p> Hey everyone, I will be joining Amazon as Software Development Engineering Intern for 6 months from February 2021. In this article, I have shared all the important resources which I followed to make a good command on Data Structures and Algorithms.</p>
+            <p class="extrat">Dec 5  <i class="fal fa-star-half-alt star"></i> </p>
+
+          </div>
+
+          <div class="contact_info_blog">
+
+                  <h2> October 2019</h2>
+          </div>
+
+          <div class="skill-row">
+            <img class="picture_website" src="image_after/third_blog.png" alt="">
+            <h6><i class="fas fa-database co"></i>  Mark Taylor </h6>
+            <h3> A Full-fledged Guide to Becoming a Big Data Engineer</h3>
+            <p> Potent habits that can reveal a person’s character.</p>
+            <p>  A 2020 tech report by Dice indicated that the demand for data engineers was one among the fastest-growing tech job in technology with a 50 percent year-over-year surge in the number of job opportunities.</p>
+            <p class="extrat">Apr 21  <i class="fal fa-star-half-alt star"></i> </p>
+          </div>
+
+
+          <div class="skill-row">
+            <img class="picture_website" src="image_after/fourth_blog.png" alt="">
+            <h6><i class="fal fa-robot co"></i>  LightOn </h6>
+            <h3> Rethinking Attention with Performers: Towards New Transformers’ Revolution</h3>
+            <p> For the 10th edition of the LightOn AI Meetup we had Krzysztof Choromanski, Research Scientist at Google Robotics NYC and Adjunct Assistant Professor at Columbia University, presenting his work on Rethinking Attention with Performers, that will appear as oral presentation at ICLR 2021. </p>
+            <p class="extrat"> Jan 18 <i class="fal fa-star-half-alt star"></i> </p>
+
+          </div>
+
+          <div class="contact_info_blog">
+
+                  <h2> March 2019</h2>
+          </div>
+
+          <div class="skill-row">
+            <img class="picture_website" src="image_after/fiveth_blog.png" alt="">
+            <h6><i class="fab fa-js-square co"></i>  Gokul N K </h6>
+            <h3> Understanding Promises in JavaScript </h3>
+            <p>Potent habits that can reveal a person’s character.</p>
+            <p>You’ve read all of your member-only stories this month. Become a member to read and support the writers and publications uncovering new insights in the topics that matter to you.</p>
+            <p class="extrat">Jul 15, 2018   <i class="fal fa-star-half-alt star"></i></p>
+          </div>
+
+
+          <div class="skill-row">
+            <img class="picture_website" src="image_after/sixth_blog.png" alt="">
+            <h6><i class="fab fa-bitcoin co"></i> Sajid Lhessani </h6>
+            <h3> How I Tripled My Return on Bitcoin Using Mathematics, Algorithms, and Python </h3>
+            <p> Potent habits that can reveal a person’s character.</p>
+            <p> Using the Golden Line algorithm, I predicted Bitcoin, Ripple, Ethereum & Dogecoin price evolutions. Full Python code shared.. It’ll help you find stronger relationships and avoid a lot of pain and frustration.</p>
+            <p class="extrat">May 2   <i class="fal fa-star-half-alt star"></i></p>
+
+          </div>
+
+        </div>
+        <!-- Cotnact info section End -->
+        <footer class="Footer">
+
+          <div class="row">
+
+            <div class="project col-lg-4">
+              <h2 class="ftco-heading-2 footer_title">Recent Projects</h2>
+              <ul class="list-group list-group-flush list-unstyled categories">
+                <li class="list-group-item"> November <span class="numbers">(2018)</span> </li>
+                <li class="list-group-item"> October <span class="numbers">(2018)</span> </li>
+                <li class="list-group-item"> September <span class="numbers">(2018)</span> </li>
+                <li class="list-group-item"> August <span class="numbers">(2018)</span> </li>
+                <li class="list-group-item"> July <span class="numbers">(2018)</span> </li>
+              </ul>
+            </div>
+
+            <div class="Blogs col-lg-4">
+              <h2 class="ftco-heading-2 footer_title">Blogs Archive</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Deep Learning <span class="numbers">(105)</span> </li>
+                <li class="list-group-item">Natural Language Processing <span class="numbers">(100)</span> </li>
+                <li class="list-group-item">Web development <span class="numbers">(212)</span> </li>
+                <li class="list-group-item">Books resume <span class="numbers">(150)</span> </li>
+                <li class="list-group-item">software testing <span class="numbers">(200)</span> </li>
+              </ul>
+            </div>
+
+            <div class="questions col-lg-4">
+              <h2 class="ftco-heading-2 footer_title">Have a Questions?</h2>
+              <ul style="list-style-type:none">
+                <li><i class="fas fa-map-marker-alt icon"></i> <span class="text">28 Rue Aristide Briand Laxou, France</span></li>
+                <li><i class="fas fa-phone icon"></i> <span class="text">+2 392 3929 210</span></a></li>
+                <li><i class="far fa-envelope icon"></i> <span class="text"> Email </span></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="Copyright col-md-12">
+              <p class="P_Copyright">
+                Copyright <i class="far fa-copyright"></i> All rights reserved | This template is made with <i class="fas fa-heartbeat"></i> by <a href="index.html" target="_blank">Me</a>
+              </p>
+            </div>
+          </div>
+
+        </footer>
+                <!-- footer section End -->
+
+      </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#sidebar").mCustomScrollbar({
+          theme: "minimal"
+        });
+
+        $('#sidebarCollapse').on('click', function() {
+          $('#sidebar, #content').toggleClass('active');
+          $('.collapse.in').toggleClass('in');
+          $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+      });
+    </script>
+</body>
+
+</html>
