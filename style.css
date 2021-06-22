@@ -497,3 +497,56 @@ a.article:hover {
   border-radius: 30px;
   box-shadow: none !important;
 }
+
+.picture_website {
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+}
+.skill-row {
+  width: 70%;
+  text-align: left;
+  line-height: 2;
+  margin-left: 50px;
+  margin-top: 8%;
+}
+
+.skill-row h3{
+  text-align: left;
+}
+
+
+.picture_data {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.co{
+  color: #ccb78f !important;
+  margin-right: 5px;
+}
+
+.about{
+  color: black;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.icons{
+  text-align: center;
+}
+.extrat{
+font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: rgba(117, 117, 117, 1);
+font-size: 13px;
+line-height: 1.8;
+font-weight: 400;
+}
+.star{
+  color: black;
+}
+.line{
+  color: rgba(117, 117, 117, 1);
+}
+.contact_info_blog h2{
+  margin: 5% auto;
+}
