@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Collapsible sidebar using Bootstrap 4</title>
+  <link rel="icon" href="icon/Portfolio_logo.gif" type="/gif">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Our Custom CSS -->
+  <link rel="stylesheet" href="style2.css">
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+  <!-- Font Awesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+
+      <div class="sidebar-header">
+
+        <img class='psl_image' src="image_after/circle-cropped.png" alt="Personal Photo">
+
+        <h1 class="name"> Abdelhalim Dahou </h1>
+        <h2 class="name"> 25 Years Old </h2>
+
+      </div>
+
+      <ul class="nav flex-column">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" target="_blank">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html" target="_blank">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Blog.html" target="_blank">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+        </li>
+        <li class="nav-item top_mar">
+
+          <a> Newsletter <i class="fab fa-telegram-plane icon"></i> </a>
+
+          <input type="text" class="form-control" placeholder="Enter Email address" />
+        </li>
+
+      </ul>
+
+
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <button type="button" id="sidebarCollapse" class="btn btn-info">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+          </button>
+          <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-align-justify"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Page</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="information">
+
+        <div class="photo">
+          <img src="image_after/personal.jpg" class="img-fluid image" alt="Personal photo">
+        </div>
+
+        <div class="text">
+          <h3 id="title">I’m Abdelhalim, a Computer Science Engineer. A self-motivated and an inspired team player, who is looking for greater opportunities and growth. </h3>
+          <p>I’ve spent the past couples of years working across different areas of digital technologie; front-end development, teaching courses, testing software and my current working on NLP domain. </p>
+          <p>These days my time is spent researching(IA), designing, prototyping, and coding. I also help programers and IA searchers get started with their careers.</p>
+          <p>Out of the office or home you’ll find me dreaming of soccer, body workout, and petting all the good dogs.</p>
+          <p class="icons"> <i class="fab fa-facebook-square about"></i> <i class="fab fa-instagram about"></i> <i class="fab fa-twitter-square about"></i> </p>
+        </div>
+
+      </div>
+
+      <div class="line"> </div>
+
+    
+
+      <div class="line"></div>
+
+      <footer class="Footer">
+
+        <div class="row">
+
+          <div class="project col-lg-4">
+            <h2 class="ftco-heading-2 footer_title">Recent Projects</h2>
+            <ul class="list-group list-group-flush list-unstyled categories">
+              <li class="list-group-item"> November <span class="numbers">(2018)</span> </li>
+              <li class="list-group-item"> October <span class="numbers">(2018)</span> </li>
+              <li class="list-group-item"> September <span class="numbers">(2018)</span> </li>
+              <li class="list-group-item"> August <span class="numbers">(2018)</span> </li>
+              <li class="list-group-item"> July <span class="numbers">(2018)</span> </li>
+            </ul>
+          </div>
+
+          <div class="Blogs col-lg-4">
+            <h2 class="ftco-heading-2 footer_title">Blogs Archive</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Deep Learning <span class="numbers">(105)</span> </li>
+              <li class="list-group-item">Natural Language Processing <span class="numbers">(100)</span> </li>
+              <li class="list-group-item">Web development <span class="numbers">(212)</span> </li>
+              <li class="list-group-item">Books resume <span class="numbers">(150)</span> </li>
+              <li class="list-group-item">software testing <span class="numbers">(200)</span> </li>
+            </ul>
+          </div>
+
+          <div class="questions col-lg-4">
+            <h2 class="ftco-heading-2 footer_title">Have a Questions?</h2>
+            <ul style="list-style-type:none">
+              <li><i class="fas fa-map-marker-alt icon"></i> <span class="text">28 Rue Aristide Briand Laxou, France</span></li>
+              <li><i class="fas fa-phone icon"></i> <span class="text">+2 392 3929 210</span></a></li>
+              <li><i class="far fa-envelope icon"></i> <span class="text"> Email </span></li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="Copyright col-md-12">
+            <p class="P_Copyright">
+              Copyright <i class="far fa-copyright"></i> All rights reserved | This template is made with <i class="fas fa-heartbeat"></i> by <a href="index.html" target="_blank">Me</a>
+            </p>
+          </div>
+        </div>
+
+      </footer>
+
+    </div>
+  </div>
+
+  <!-- jQuery CDN - Slim version (=without AJAX) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!-- jQuery Custom Scroller CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function() {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
+
+</html>
